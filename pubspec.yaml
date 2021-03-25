@@ -1,0 +1,38 @@
+name: wallet
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Circular
+      fonts:
+        - asset: assets/fonts/CircularAir-Light.ttf
+          weight: 300
+        - asset: assets/fonts/CircularStd-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/CircularStd-Bold.ttf
+          weight: 600
+    - family: Afternoonin
+      fonts:
+        - asset: assets/fonts/AfternooninStereo.ttf
